@@ -5,5 +5,5 @@ def BinaryReversal(s):
         n *= 2
     return str(int((b.zfill(n))[::-1], 2)) # không hiểu cái dòng này này 
 # keep this function call here
-a = '213'
+a = int(input("nhap so can chuyen doi nhi phan : "))
 print (BinaryReversal(a))
